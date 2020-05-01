@@ -18,8 +18,7 @@ function bounce(consoleResult3) {
 }
 
 function superReverse(consoleResult4) {
-    var consoleResult5 = consoleResult4.split("").reverse().join("");
-    console.log(consoleResult5);
+    return consoleResult5 = consoleResult4.split("").reverse().join("");
 }
 
 function conversion(sentence) {
@@ -31,6 +30,7 @@ function conversion(sentence) {
     console.log(consoleResult3);
     var consoleResult4 = bounce(consoleResult3);
     superReverse(consoleResult4);
+    console.log(consoleResult5);
 }
 
 $(document).ready(function() {
